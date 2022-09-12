@@ -1,0 +1,28 @@
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(112, 38, 217, 1) 50%,
+    rgba(51, 144, 185, 1) 77%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.App {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.home-title {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 2rem;
+}
